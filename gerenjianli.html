@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				padding: 0;
+				margin: 0;
+			}
+			div,span,p,img{
+				box-sizing: border-box;
+			}
+			img{
+				vertical-align: middle;
+			}
+			.box{
+				
+				width:1204px;
+				margin: auto;
+				padding: auto;
+				border: 2px solid #589bf7;
+			}
+			.fl{
+				float: left;
+			}
+			.fr{
+				float: right;
+			}
+			.topback{
+				width: 100%;
+				height: 376px;
+				/*background-color: #589bf7;*/
+				background: url(img/back2_01.png);
+				/*background-repeat: no-repeat;
+				background-position: center 0; 
+				background-attachment:scroll;*/
+			}
+			
+			.topback-left{
+				float: left;
+				padding-left: 70px;
+				padding-top: 83px;
+			}
+			.topback-left-intrduct{
+				font-size: 20px;
+				color: white;
+			}
+			.topback-left-name{
+				font-size: 42px;
+				font-weight:500;
+				padding-right: 20px;
+			}
+			.topback-right{
+				float: right;
+			}		
+			.topback-right img{
+				padding-top: 60px;
+				padding-right:100px;
+				padding-bottom: 0px;
+				width: 288px;
+			}
+			
+			.conter{
+				width: 100%;
+				padding-top: 30px;
+			}
+			.conter-left{
+				float: left;
+				width: 830px;
+			}
+			.btn{
+				
+				background: #589bf7;
+				width: 380px;
+				height: 60px;
+				font-size: 25px;
+				color: white;
+				padding:15px 0px 15px 30px;
+			}
+			.btn1 img,.btn2 img,.btn3 img{
+				height: 100%;
+				/*padding-top:15px;*/
+				vertical-align: middle;
+			}
+			.btn1 span,.btn2 span,.btn3 span{
+				display: inline-block;
+				padding-left: 10px;
+			}
+			.conter-right{
+				float: right;
+				width: 370px;
+			}
+			.biaoshi{
+				width: 100%;
+				padding-top: 30px;
+				padding-left:30px;
+				padding-bottom: 12px;
+				font-size: 20px;
+				color: #7d7c7c;
+			}
+			.biaoshi img{
+				height: 25px;
+				margin-top: 0px;
+				padding-right: 10px;
+			}
+			/*.clearfix{
+				content: "";
+				
+				clear: both;
+				display: block;
+			}*/
+			.clearfix:after{
+				content: "";
+				width: 0;
+				height: 0;
+				clear: both;
+				display: block;
+			}
+			
+			.l{
+				padding-left: 20px;
+			}
+			.biaoshi2{
+				width: 100%;
+				padding-left:30px;
+				padding-bottom: 70px;
+				font-size: 20px;
+				color: #7d7c7c;
+			}
+			.biaoshi2 img{
+				height: 25px;
+				padding-right: 10px;
+			}
+			.three{
+				width: 100%;
+				padding-top: 30px;
+				padding-left:30px;
+			}
+			.three1{
+				float: left;
+				font-size: 20px;
+				color: #484848;
+				font-weight: 500;
+				line-height:30px;
+			}
+			.time{
+				width: 220px;
+				font-size: 17px;
+			}
+			.company{
+				width: 260px;
+				padding-right: 38px;
+			}
+			.work{
+				width: 320px;
+			}
+			.jiance{
+				width: 100%;
+				padding-top: 30px;
+				padding-left:30px;
+				padding-right: 70px;
+				color: #878686;
+				font-size: 18px;
+				
+			}
+			.btn3{
+				margin-top: 70px;
+			}
+			
+			.inform{
+				width: 100%;
+				padding-left: 20px;
+				
+			}
+			.right-title{
+				font-size: 20px;
+				font-weight:800;
+				color: #868585;
+				/*height: 60px;*/
+				line-height: 60px;
+			}
+			.xinxi{
+				width: 100%;
+				padding:15px 0;
+				border-bottom: 2px dashed #929292;
+			}
+			.xinxi img{
+				width: 30px;
+				height: 30px;
+				
+			}
+			.xinxi span{
+				padding-left: 10px;
+				padding-top: 0;
+				line-height: 30px;
+			}
+			.like{
+				margin-top: 90px;
+			}
+			.ton{
+				width: 110px;
+				padding: 10px 30px 0 0;
+			}
+			.ton img{
+				width: 80px;
+			}
+			.ton p{
+				text-align: center;
+				font-size: 20px;
+				font-weight: 400;
+				line-height: 20px;
+				color: #878686;
+			}
+			.ten{
+				padding-top: 15px;
+			}
+			
+			.bottom{
+				width: 100%;
+				height: 169px;
+				margin-top: 170px;
+				background:url(img/169_02.png);
+				
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="topback">
+				<div class="topback-left">
+					<span class="topback-left-intrduct">
+						<span class="topback-left-name">
+							杨丹婷
+						</span>
+						为未来而工作，你好，我来了
+					</span>
+				</div>
+				<div class="topback-right">
+					<img src="img/1010_03.png"/>
+				</div>
+			</div>
+			<div class="conter clearfix">
+				<div class="conter-left">
+					<div class="btn1 btn">
+						<img src="img/1010_07.png" /><span>求职意向</span>
+					</div>
+					<div class="biaoshi">
+						<img src="img/1010_14.png" /><span>检测人员</span>
+						<img src="img/1010_16.png" class="l"/><span>全职</span>
+						<img src="img/1010_18.png" class="l"/><span>广东广州</span>
+						<img src="img/1010_20.png" class="l"/><span>薪资面议</span>
+					</div>
+					<div class="biaoshi2">
+						<img src="img/1010_27.png" /><span>随时到岗</span>
+					</div>
+					
+					<div class="btn2 btn">
+						<img src="img/1010_32.png" /><span>工作经验</span>
+					</div>
+					
+					<div class="three clearfix">
+						<div class="time three1">
+							<p>2016.8-2018.2</p>
+						</div>
+						<div class="company three1">
+							<p>惠州市四季绿农业产品有限公司</p>
+						</div>
+						<div class="work three1">
+							<p>检测员</p>
+						</div>
+						
+					</div>
+					<div class="jiance">
+						<p>检测农产品农药残留是否超标</p>
+					</div>
+					
+					<div class="btn3 btn">
+						<img src="img/1010_45.png" /><span>技能特长</span>
+						
+					</div>
+					<div class="jiance">
+						<p>中级检验工、全国计算机水平二级、公共营养师、大学英语四级</p>
+					</div>
+					
+					<div class="btn3 btn">
+						<img src="img/1010_58.png" /><span>自我评价</span>
+						
+					</div>
+					<div class="jiance">
+						<p>本人具备良好的性格，吃苦耐劳，忠诚稳重，坚守诚信，正直原则，拥有良好的综合素质；善于学习，勤奋务实，刻苦钻研，勇于挑战自我开发自身潜能；善于与人沟通，具有较强的团队管理能力个与人合作的精神，能够积极互动努力达成团队的目的，对待工作，充满热枕，积极主动，义无反顾，克己尽职。</p>
+					</div>
+														
+				</div>
+				
+				
+				<div class="conter-right">
+					
+					<div class="inform">
+						<p class="right-title">基本信息</p>
+						<div class="xinxi">
+							<img src="img/1010_11.png" /><span>22岁</span>
+						</div>
+						<div class="xinxi">
+							<img src="img/1010_29.png" /><span>广东惠州</span>
+						</div>
+						<div class="xinxi">
+							<img src="img/1010_31.png" /><span>13172730016</span>
+						</div>
+						<div class="xinxi">
+							<img src="img/1010_35.png" /><span>love.chirsty@foxmail.com</span>
+						</div>
+						
+						<p class="right-title like">兴趣爱好</p>
+						
+						<div class="liuda">
+							<div class="liuda-top clearfix">
+								<div class="top1 fl ton">
+									<img src="img/1010_38.png" />
+									<p>羽毛球</p>
+								</div>
+								<div class="top2 fl ton">
+									<img src="img/1010_40.png" />
+									<p>电影</p>
+								</div>
+								<div class="top3 fl ton">
+									<img src="img/1010_42.png" />
+									<p>音乐</p>
+								</div>
+							</div>
+							<div class="liuda-bottom clearfix ten">
+								<div class="top1 fl ton">
+									<img src="img/1010_53.png" />
+									<p>户外运动</p>
+								</div>
+								<div class="top2 fl ton">
+									<img src="img/1010_52.png" />
+									<p>健身</p>
+								</div>
+								<div class="top3 fl ton">
+									<img src="img/1010_51.png" />
+									<p>跳舞</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="bottom">
+				
+			</div>
+		</div>
+	</body>
+</html>
